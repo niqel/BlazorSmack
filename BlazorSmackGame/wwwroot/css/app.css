@@ -2,6 +2,24 @@ h1:focus {
     outline: none;
 }
 
+.board{
+    align-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    justify-content: center;
+    width: 600px;
+    border: 1px solid black;
+}
+
+main{
+    align-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
